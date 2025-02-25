@@ -24,6 +24,11 @@ header {
     padding-top: 60.5px;
 }
 
+h1,
+h2 {
+    text-align: center;
+}
+
 
 /*Hero image index page*/
 
@@ -64,6 +69,15 @@ header {
 
 
 /*Main*/
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.btn-dark {
+    color: white;
+    background-color: var(--primary-color);
+}
 
 
 /*Footer*/
