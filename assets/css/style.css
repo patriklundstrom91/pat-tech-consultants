@@ -20,6 +20,32 @@ body {
     background-color: var(--secondary-color);
 }
 
+header {
+    padding-top: 60.5px;
+}
+
+
+/*Hero image index page*/
+
+#hero {
+    background: url(../images/hero.jpg) no-repeat center center/cover;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+
+/*Slogan on hero pic*/
+
+#cover-box {
+    /*Use rgba to also set transparency*/
+    background-color: rgba(207, 222, 231, .7);
+    position: absolute;
+    bottom: 30px;
+    padding: 15px 15px;
+    margin-left: 15px;
+}
+
 
 /*Navbar*/
 
