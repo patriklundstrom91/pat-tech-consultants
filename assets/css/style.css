@@ -17,7 +17,7 @@
 
 body {
     font-family: var(--primary-font);
-    background-color: var(--secondary-color);
+    background-color: white;
 }
 
 header {
@@ -70,13 +70,27 @@ h2 {
 
 /*Main*/
 
+
+/*Customizing the info cards*/
+
 .card {
     margin-bottom: 1rem;
+    border-radius: 0;
+}
+
+.card-header {
+    background-color: var(--highlightcolor-light);
 }
 
 .btn-dark {
     color: white;
     background-color: var(--primary-color);
+    border-radius: 0;
+}
+
+#why-us a:hover,
+#join-us a:hover {
+    background-color: var(--highlightcolor-dark);
 }
 
 
@@ -131,5 +145,8 @@ footer p {
     #footer-logo {
         width: 125px;
         margin-top: 1rem;
+    }
+    .card-text {
+        min-height: 145px;
     }
 }
