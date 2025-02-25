@@ -1,0 +1,37 @@
+/*Import of google font Barlow*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&display=swap');
+
+/*CSS variables*/
+
+:root {
+    --primary-font: "Barlow", serif;
+    --primary-color: #082872;
+    --secondary-color: #92B4F4;
+    --highlightcolor-dark: #251605;
+    --highlightcolor-light: #CFDEE7;
+}
+
+
+/*Global styles*/
+
+body {
+    font-family: var(--primary-font);
+    background-color: var(--secondary-color);
+}
+
+
+/*Navbar*/
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 100px;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
