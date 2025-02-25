@@ -35,3 +35,61 @@ body {
     padding-top: 0;
     padding-bottom: 0;
 }
+
+
+/*Main*/
+
+
+/*Footer*/
+
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#footer-logo {
+    width: 97.5px;
+    margin-top: 1rem;
+}
+
+#socials i {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 3px;
+    margin-bottom: 0.8rem;
+}
+
+#socials i:hover {
+    color: var(--highlightcolor-light);
+}
+
+footer p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/*Media query small size display 576px an up*/
+
+@media screen and (min-width:576px) {
+    #socials i {
+        margin-top: 2rem;
+    }
+    #footer-logo {
+        width: 125px;
+        margin-top: 0.5rem;
+    }
+}
+
+
+/*Media query medium size display 768px and up(Tablet)*/
+
+@media screen and (min-width: 768px) {
+    #socials i {
+        margin-top: 2.1rem;
+    }
+    #footer-logo {
+        width: 125px;
+        margin-top: 1rem;
+    }
+}
