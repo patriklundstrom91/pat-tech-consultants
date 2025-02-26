@@ -94,6 +94,17 @@ h2 {
 }
 
 
+/*Info-box section*/
+
+#info-box {
+    background-color: var(--highlightcolor-light);
+}
+
+#index-pic2 img {
+    width: 80%;
+}
+
+
 /*Footer*/
 
 .footer {
@@ -109,7 +120,8 @@ h2 {
 #socials i {
     color: white;
     font-size: 1.2rem;
-    margin-right: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 0.8rem;
 }
 
