@@ -104,6 +104,8 @@ h2 {
 #info-box {
     background-color: var(--highlightcolor-light);
     margin-bottom: 1.6rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 #index-pic2 img {
