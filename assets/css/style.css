@@ -46,9 +46,9 @@ h2 {
     /*Use rgba to also set transparency*/
     background-color: rgba(207, 222, 231, .7);
     position: absolute;
-    bottom: 30px;
+    bottom: 2rem;
     padding: 15px 15px;
-    margin-left: 15px;
+    margin-left: 1rem;
 }
 
 
@@ -74,7 +74,7 @@ h2 {
 /*Customizing the info cards*/
 
 .card {
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
     border-radius: 0;
 }
 
@@ -88,6 +88,11 @@ h2 {
     border-radius: 0;
 }
 
+.headline {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
 #why-us a:hover,
 #join-us a:hover {
     background-color: var(--highlightcolor-dark);
@@ -98,19 +103,19 @@ h2 {
 
 #info-box {
     background-color: var(--highlightcolor-light);
+    margin-bottom: 1.6rem;
 }
 
 #index-pic2 img {
     width: 80%;
-    margin-top: 1rem;
 }
 
 
 /*Testimonials section*/
 
 #contact-btn {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
 }
 
 
@@ -147,6 +152,9 @@ footer p {
 /*Media query small size display 576px an up*/
 
 @media screen and (min-width:576px) {
+    #cover-box {
+        margin-left: 3rem;
+    }
     #socials i {
         margin-top: 2rem;
     }
@@ -160,6 +168,9 @@ footer p {
 /*Media query medium size display 768px and up(Tablet)*/
 
 @media screen and (min-width: 768px) {
+    #cover-box {
+        margin-left: 6rem;
+    }
     #socials i {
         margin-top: 2.1rem;
     }
