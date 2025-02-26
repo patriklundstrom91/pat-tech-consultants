@@ -10,6 +10,7 @@
     --secondary-color: #92B4F4;
     --highlightcolor-dark: #251605;
     --highlightcolor-light: #CFDEE7;
+    --primary-background: #E4EFF1;
 }
 
 
@@ -56,6 +57,7 @@ h2 {
 
 #navbar {
     background-color: var(--primary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #navbar .logo {
@@ -70,12 +72,23 @@ h2 {
 
 /*Main*/
 
+main {
+    background-color: var(--primary-background);
+}
+
 
 /*Customizing the info cards*/
 
 .card {
     margin-bottom: 1.6rem;
     border-radius: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card-header {
