@@ -92,7 +92,7 @@ main {
 
 .card-header {
     background-color: var(--highlightcolor-light);
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 .btn-dark {
