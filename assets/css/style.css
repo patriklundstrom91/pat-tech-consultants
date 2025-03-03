@@ -152,6 +152,12 @@ main {
 
 #form-request {
     border: 2px solid var(--highlightcolor-light);
+    max-width: 700px;
+    margin-bottom: 1.6rem;
+}
+
+#form-request button {
+    margin-bottom: 1rem;
 }
 
 
@@ -212,7 +218,7 @@ footer p {
 
 /*Media query medium size display 768px and up(Tablet)*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
     #cover-box {
         margin-left: 6rem;
     }
@@ -223,7 +229,34 @@ footer p {
         width: 125px;
         margin-top: 1rem;
     }
-    .card-text {
+    .index-card {
         min-height: 145px;
+    }
+    .services-card {
+        min-height: 360px;
+    }
+}
+
+
+/*Media query for large screen 992px and up*/
+
+@media screen and (min-width:992px) {
+    .services-card {
+        min-height: 230px;
+    }
+}
+
+
+/*Media query for xl screen 1200px and up*/
+
+@media screen and (min-width:1200px) {
+    .services-card {
+        min-height: 200px;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .services-card {
+        min-height: 180px;
     }
 }
