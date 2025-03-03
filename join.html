@@ -4,11 +4,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PTC | Join Us</title>
+    <!--Favicon, generated from logo by favicon.io/favicon-converter/-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <!--Load Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--Custom CSS-->
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body>
-    <a href="index.html">Back</a>
+<body class="d-flex flex-column min-vh-100">
+    <!--Navbar using Bootstrap 5.3-->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo-blue-slim.png" alt="logo" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="services.html">Our Services</a>
+                    <a class="nav-link active" aria-current="page" href="join.html">Join Us</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <section id="hero-our-services">
+            <div id="cover-box">
+                <h2>Join Us!</h2>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="container section">
+            <h1 class="headline">Work at PTC</h1>
+            <div class="row">
+                <div id="why-us" class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Our Team</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text services-card">
+                                Join our diverse team with people from all over the world and skills in all areas, thrive together and learn from each other.
+                            </p>
+                            <a href="#application" class="btn btn-dark d-grid gap-2 col-7 col-sm-5 col-md-10 col-lg-7 col-xl-6 mx-auto">Send Application</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="join-us" class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Our Culture</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text services-card">
+                                At PTC we have a strong "we" culture, the success of the team and company is everyones success and will benefit everyone. We try to do a lot of activities together in order to bond and create good work relations that makes it fun to enter the office on
+                                monday morning!
+                            </p>
+                            <a href="#application" class="btn btn-dark d-grid gap-2 col-7 col-sm-5 col-md-10 col-lg-7 col-xl-6 mx-auto">Send Application</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="join-us" class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Benefits</h4>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text services-card">
+                                At PTC we value our employees, so of course you should get a good reward for a job well done! We offer competitive base salary and want to provide a good work-life balance with 6 weeks of paid vacation and health benefits with a gym membership and private
+                                healthinsurance. Also every year we give back to our employees by giving out 20% of the profits as a bonus divided on the employees every year, so the better it goes for the company the bigger bonus! </p>
+                            <a href="#application" class="btn btn-dark d-grid gap-2 col-7 col-sm-5 col-md-10 col-lg-7 col-xl-6 mx-auto">Send Application</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services-pic2" class="container section">
+            <div class="text-center">
+                <img src="assets/images/client-meeting.jpg" alt="Picture of a client meeting">
+            </div>
+        </div>
+        <div id="application" class="container section">
+            <h1 class="headline">Send Your Application</h1>
+            <form id="form-request" class="row g-3 mx-auto">
+                <div class="col-md-4">
+                    <label for="name" class="form-label">Full Name*</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="phone" class="form-label">Phone*</label>
+                    <input type="number" class="form-control" id="phone" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="email" class="form-label">Email*</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="request-type" class="form-label">Type of skills*</label>
+                    <select id="request-type" class="form-select" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Frontend</option>
+                    <option>Backend</option>
+                    <option>Fullstack</option>
+                    <option>Project manager</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="input-cv">Upload CV*</label>
+                    <input type="file" class="form-control" id="input-cv" required>
+                </div>
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="input-cl">Upload CL</label>
+                    <input type="file" class="form-control" id="input-cl">
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-dark d-grid gap-2 col-7 col-sm-4 mx-auto">Submit Application</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+    <footer id="footer" class="mt-auto footer">
+        <div class="container section">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-md-4"><img src="assets/images/logo-blue-slim.png" alt="logo" id="footer-logo"></div>
+                <div class="col-12 col-sm-6 col-md-4" id="company-info">
+                    <p>Pat Tech Consultants<br>Phone: 010-100 00 00<br>Email: info@ptc.com</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4" id="socials">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/?lang=en" target="_blank" rel="noopener" aria-label="Visit our Twitter (opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Load FontAwesome kit-->
+    <script src="https://kit.fontawesome.com/ba33d00b7b.js" crossorigin="anonymous"></script>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
