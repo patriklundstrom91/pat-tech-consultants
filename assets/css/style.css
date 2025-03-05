@@ -165,7 +165,8 @@ body {
 /*Second pic on pages*/
 
 #index-pic2 img,
-#services-pic2 img {
+#services-pic2 img,
+#join-pic2 img {
     width: 80%;
 }
 
@@ -264,6 +265,9 @@ footer p {
     }
     .services-card {
         min-height: 360px;
+    }
+    .join-card {
+        min-height: 430px;
     }
 }
 
