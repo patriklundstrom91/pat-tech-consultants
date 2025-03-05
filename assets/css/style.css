@@ -267,7 +267,10 @@ footer p {
         min-height: 360px;
     }
     .join-card {
-        min-height: 430px;
+        min-height: 378px;
+    }
+    #benefits-card-text {
+        margin-bottom: 1rem;
     }
 }
 
@@ -278,6 +281,9 @@ footer p {
     .services-card {
         min-height: 230px;
     }
+    .join-card {
+        min-height: 260px;
+    }
 }
 
 
@@ -287,10 +293,16 @@ footer p {
     .services-card {
         min-height: 200px;
     }
+    .join-card {
+        min-height: 240px;
+    }
 }
 
 @media screen and (min-width:1400px) {
     .services-card {
         min-height: 180px;
+    }
+    .join-card {
+        min-height: 220px;
     }
 }
