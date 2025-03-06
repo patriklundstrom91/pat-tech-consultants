@@ -135,16 +135,25 @@ body {
     border-radius: 0 !important;
 }
 
+
+/*Button dark styling*/
+
 .btn-dark {
     color: white;
     background-color: var(--primary-color);
     border-radius: 0;
 }
 
+
+/*Headline margins*/
+
 .headline {
     margin-top: 1.6rem;
     margin-bottom: 1.6rem;
 }
+
+
+/*Hover effect on links*/
 
 #why-us a:hover,
 #join-us a:hover {
@@ -204,6 +213,9 @@ body {
     margin-top: 1rem;
 }
 
+
+/*Socials icons restyling*/
+
 #socials i {
     color: white;
     font-size: 1.2rem;
@@ -211,6 +223,9 @@ body {
     margin-left: 10px;
     margin-bottom: 0.8rem;
 }
+
+
+/*Hover effect on socials*/
 
 #socials i:hover {
     color: var(--highlightcolor-light);
@@ -221,9 +236,15 @@ footer p {
     margin-bottom: 0.5rem;
 }
 
+
+/*Footer links change colour*/
+
 footer a {
     color: white;
 }
+
+
+/*Footer links hover effect*/
 
 footer a:hover {
     color: var(--highlightcolor-light);
